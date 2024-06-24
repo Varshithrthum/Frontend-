@@ -1,0 +1,132 @@
+<!-- DOCTYPE HTML specifies the document type -->
+<!DOCTYPE html> 
+<!-- The lang attribute specifies the language for internationalization -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- The title tag sets the title for the webpage -->
+    <title>Tags</title> 
+</head>
+<body>
+    <!-- The header element contains introductory content or navigational links -->
+    <header>
+        <h1>Website Title</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- The body element contains the main content of the webpage -->
+    
+    <!-- Formatting Tags -->
+    <p>This is the Paragraph Tag</p>
+    <h1>This is Heading 1</h1>
+    <h2>This is Heading 2</h2>
+    <h3>This is Heading 3</h3>
+    <h4>This is Heading 4</h4>
+    <h5>This is Heading 5</h5>
+    <h6>This is Heading 6</h6>
+    <strong>This is the strong tag (bold)</strong>
+    <br>    
+    <!-- The br tag is used for a line break -->
+
+    <hr>
+    <!-- The hr tag is used for a horizontal line break -->
+
+    <!-- List Tags -->
+    <h1>Unordered List</h1>
+    <ul>
+        <li>List Item 1</li>
+        <li>List Item 2</li>
+        <li>List Item 3</li>
+        <li>List Item 4</li>
+        <li>List Item 5</li>
+    </ul>
+
+    <h1>Ordered List</h1>
+    <ol>
+        <li>List Item 1</li>
+        <li>List Item 2</li>
+        <li>List Item 3</li>
+        <li>List Item 4</li>
+        <li>List Item 5</li>
+    </ol>
+
+    <hr>
+    <!-- Anchor Tags -->
+    <a href="https://moodle.brookes.ac.uk">Brookes Moodle</a>
+
+    <!-- 
+        Link Colors
+        Links typically appear in different colors based on their state:
+        Active: Displayed in red and underlined like this sentence
+        Visited: Appears purple and underlined like this sentence
+        Unvisited: Shown as blue and underlined like this sentence
+        You can customize these colors using CSS to better match the style of your website.
+     -->
+
+    <hr>
+    <h1>The img tag is used to add an image</h1>
+    <img src="https://images.pexels.com/photos/2599244/pexels-photo-2599244.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="picture" width="100" height="100">
+
+    <hr>
+    <h1>The audio tag is used to add audio</h1>
+    <audio src="audio.mp3" controls></audio>
+
+    <hr>
+    <h1>The video tag is used to add video</h1>
+    <video src="video.mp4" controls></video>
+
+    <hr>
+
+    <!-- Form Tags -->
+    <form action="/submit" method="post">
+        <center>
+            <!-- Text input for username -->
+            <label for="username">Username</label>
+            <input type="text" id="username" name="username" required>
+            <br><br>
+
+            <!-- Text input for password -->
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" required>
+            <br><br>
+
+            <!-- Textarea for message -->
+            <label for="message">Message</label>
+            <textarea name="message" id="message" required></textarea>
+            <br><br>
+
+            <!-- Select dropdown for gender -->
+            <label for="gender">Gender</label>
+            <select name="gender" id="gender" required>
+                <option value="">Select Gender</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="other">Other</option>
+            </select>
+            <br><br>
+
+            <!-- Submit button -->
+            <button type="submit">Submit</button>
+        </center>
+    </form>
+
+    <hr>
+    <!-- The footer element contains footer content such as author information, copyright, and related links -->
+    <footer>
+        <p>&copy; 2024 My Website. All rights reserved.</p>
+        <nav>
+            <ul>
+                <li><a href="#privacy-policy">Privacy Policy</a></li>
+                <li><a href="#terms-of-service">Terms of Service</a></li>
+            </ul>
+        </nav>
+    </footer>
+</body>
+</html>
